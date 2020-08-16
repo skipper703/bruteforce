@@ -58,6 +58,7 @@ if method2 == 'y' or method2 == 'Y':
                 print(f"Dire win, password is '{password}'")
                 with open('C:/Users/admin/.vscode/Bruteforce/result.txt', 'a') as f:
                     f.write(f'{login}:{password}\n')
+                time.sleep(1)
                 print('Result were printed in result.txt file')
                 break
 
