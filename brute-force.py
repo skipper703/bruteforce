@@ -31,14 +31,14 @@ if method1 == 'y' or method1 == 'Y':
 
 
 #------------------ALPHABET_BRUTEFORCE-------------------------------------------------------
-n = 0
-length = 0
-result = ''
-#Alphabet can be more symbols, but for test i took this one
-alphabet = '0123456789abcdefghijklmnopqrstuvwxyz'
-base = len(alphabet)
-
 if method2 == 'y' or method2 == 'Y':
+    n = 0
+    length = 0
+    result = ''
+    #Alphabet can be more symbols, but for test i took this one
+    alphabet = '0123456789abcdefghijklmnopqrstuvwxyz'
+    base = len(alphabet)
+
     while True:
         password = ''
         temp = n
