@@ -9,8 +9,6 @@ method1 = input("If you want to use most popular keywords input 'y', else 'n': "
 method2 = input("If you want to use all alphabet input 'y', else 'n': ")
 
 
-
-
 #------------------DATABASE_BRUTEFORCE-------------------------------------------------------
 if method1 == 'y' or method1 == 'Y':
     with open('C:/Users/admin/.vscode/Bruteforce/pass_data.txt', 'r') as f_file:
