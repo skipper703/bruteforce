@@ -2,7 +2,7 @@ import time
 import requests
 
 print('Hello, this is bruteforce programm')
-print('If you dont know what is bruteforce, please, just close it')
+print('If you dont know what bruteforce is, please, just close it')
 user_url = input('Print URL: ')
 login = input('Input user login: ')
 method1 = input("If you want to use most popular keywords input 'y', else 'n': ")
